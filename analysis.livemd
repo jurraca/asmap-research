@@ -27,7 +27,7 @@ Given an initial set, what decay does an ASmap show over time? meaning, to what 
 <!-- livebook:{"attrs":"eyJkYXRhYmFzZV9wYXRoIjoiL2hvbWUvYmFzZS9jb2RlL2FzbWFwL2RhaWx5ZGlmZi9hc21hcC5kYiIsInR5cGUiOiJzcWxpdGUiLCJ2YXJpYWJsZSI6ImNvbm4ifQ","chunks":null,"kind":"Elixir.KinoDB.ConnectionCell","livebook_object":"smart_cell"} -->
 
 ```elixir
-opts = [database: "/home/base/code/asmap/dailydiff/asmap.db"]
+opts = [database: "../data/asmap.db"]
 {:ok, conn} = Kino.start_child({Exqlite, opts})
 ```
 
